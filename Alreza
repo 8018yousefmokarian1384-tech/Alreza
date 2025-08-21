@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الرضا - فروشگاه لوازم یدکی خودروهای ایرانی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>فروشگاه لوازم یدکی خودروهای ایرانی <span>الرضا</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">صفحه اصلی</a></li>
+                <li><a href="#categories">دسته‌بندی‌ها</a></li>
+                <li><a href="#contact">تماس با ما</a></li>
+                <li><a href="#">سبد خرید</a></li>
+                <li><a href="#">ورود / ثبت‌نام</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Banner Section -->
+        <section id="home" class="banner">
+            <img src="images/banner.jpg" alt="بنر تبلیغاتی بزرگ">
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="categories">
+            <h2>دسته‌بندی خودروها</h2>
+            <div class="category-list">
+                <div class="category-item">
+                    <h3>پژو</h3>
+                    <img src="images/peugeot.jpg" alt="پژو">
+                    <a href="#">مشاهده محصولات</a>
+                </div>
+                <div class="category-item">
+                    <h3>سمند</h3>
+                    <img src="images/samand.jpg" alt="سمند">
+                    <a href="#">مشاهده محصولات</a>
+                </div>
+                <div class="category-item">
+                    <h3>تیبا</h3>
+                    <img src="images/tiba.jpg" alt="تیبا">
+                    <a href="#">مشاهده محصولات</a>
+                </div>
+                <div class="category-item">
+                    <h3>رانا</h3>
+                    <img src="images/rana.jpg" alt="رانا">
+                    <a href="#">مشاهده محصولات</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-products">
+            <h2>محصولات ویژه</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="images/peugeot_motor_part.jpg" alt="قطعه موتوری پژو">
+                    <p>قطعه موتوری پژو 206</p>
+                    <p>قیمت: 600,000 تومان</p>
+                    <button>افزودن به سبد خرید</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/samand_brake_part.jpg" alt="قطعه ترمز سمند">
+                    <p>قطعه ترمز سمند</p>
+                    <p>قیمت: 350,000 تومان</p>
+                    <button>افزودن به سبد خرید</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/tiba_body_part.jpg" alt="قطعه بدنه تیبا">
+                    <p>قطعه بدنه تیبا</p>
+                    <p>قیمت: 450,000 تومان</p>
+                    <button>افزودن به سبد خرید</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>تماس با ما</h2>
+            <p>برای تماس با ما می‌توانید از شماره تلفن <strong>۰۵۱۹۱۰۰۴۰۷۰</strong> استفاده کنید.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>تمامی حقوق محفوظ است &copy; 2025</p>
+    </footer>
+</body>
+</html>
